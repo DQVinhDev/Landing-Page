@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGL test_Đặng Quang Vinh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="layout__column layout__column--left">
+        <button class="hamburger-menu" id="hamburgerMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav nav--fixed" id="mobileNav">
+          <div class="nav__menu-container">
+            <div class="nav__logo">
+              <img class="nav__logo-img" src="./assets/images/saleScore.jpg" />
+            </div>
+            <div onclick="window.location.href='#'" class="nav__name">
+              <p class="nav__name-text">サポートサイト</p>
+            </div>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="nav__text">検査結果画面の解説</span>
+                  <img
+                    src="./assets/images/fa-solid fa-angle-right.svg"
+                    alt="Right arrow"
+                    class="nav__arrow"
+                  />
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="nav__text">主な機能</span>
+                  <img
+                    src="./assets/images/fa-solid fa-angle-right.svg"
+                    alt="Right arrow"
+                    class="nav__arrow"
+                  />
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="nav__text">利用シーン別ガイド</span>
+                  <img
+                    src="./assets/images/fa-solid fa-angle-right.svg"
+                    alt="Right arrow"
+                    class="nav__arrow"
+                  />
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="nav__text">初めてご利用の方へ</span>
+                  <img
+                    src="./assets/images/fa-solid fa-angle-right.svg"
+                    alt="Right arrow"
+                    class="nav__arrow"
+                  />
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="nav__text">FAQ</span>
+                  <img
+                    src="./assets/images/fa-solid fa-angle-right.svg"
+                    alt="Right arrow"
+                    class="nav__arrow"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="layout__column layout__column--right">
+        <header class="header">
+          <div class="header__container">
+            <div class="header__container-top">
+              <div class="header__container-top-left">
+                <a href="/" class="header_link"
+                  ><div class="header__container-top-left-home">
+                    <img src="./assets/images/fa-house.svg" alt="Home icon" />
+                    <span>トップ</span>
+                  </div></a
+                >
+              </div>
+              <div class="header__container-top-right">
+                <a href="#"
+                  ><div href="#" class="header__container-top-right-login">
+                    <span>ログイン</span>
+                    <img
+                      src="./assets/images/fa-regular fa-envelope.svg"
+                      alt="Login icon"
+                    /></div
+                ></a>
+                <a href="#"
+                  ><div href="#" class="header__container-top-right-contact">
+                    <span>お問い合わせ</span>
+                    <img
+                      src="./assets/images/fa-solid fa-arrow-up-right-from-square.svg"
+                      alt="Contact icon"
+                    /></div
+                ></a>
+              </div>
+            </div>
+            <div class="header__container-bottom">
+              <div class="header__container-bottom-search-container">
+                <span>どんな事でお困りですか？</span>
+                <div class="header__container-bottom-search">
+                  <img
+                    src="./assets/images/fa-solid fa-magnifying-glass.svg"
+                    alt="Search icon"
+                    class="header__container-bottom-search-icon"
+                  />
+                  <input
+                    class="header__container-bottom-search-input"
+                    type="text"
+                    placeholder="キーワードを入力"
+                  />
+                </div>
+                <button
+                  onclick="window.location.href='#'"
+                  class="header__container-bottom-search-button"
+                >
+                  検索
+                </button>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- main section -->
+        <main class="main">
+          <div class="main__guide">
+            <div class="main__guide-title">
+              <img
+                class="main__guide-img"
+                src="./assets/images/アートワーク 38.svg"
+              />
+
+              <div class="main__guide-text">
+                <span class="main__guide-text-title">利用シーン別ガイド</span>
+
+                <span class="main__guide-text-description">
+                  SALES SCOREを様々なシーンでご活用いただく方法をご紹介します。
+                </span>
+              </div>
+            </div>
+            <div class="main__guide-content">
+              <div class="main__guide-content-first-row">
+                <div
+                  onclick="window.location.href='#'"
+                  class="main__guide-content-item-1"
+                >
+                  <img
+                    class="main__guide-content-item-img"
+                    src="./assets/images/icon.svg"
+                    alt="Guide image"
+                  />
+                  <span class="main__guide-content-item-text"
+                    >受検者の営業活動の特徴を 見える化したい</span
+                  >
+                </div>
+                <div
+                  onclick="window.location.href='#'"
+                  class="main__guide-content-item-2"
+                >
+                  <img
+                    class="main__guide-content-item-img"
+                    src="./assets/images/icon (1).svg"
+                    alt="Guide image"
+                  />
+                  <span class="main__guide-content-item-text"
+                    >ポテンシャルの高い人材を 採用したい</span
+                  >
+                </div>
+                <div
+                  onclick="window.location.href='#'"
+                  class="main__guide-content-item-3"
+                >
+                  <img
+                    class="main__guide-content-item-img"
+                    src="./assets/images/icon (2).svg"
+                    alt="Guide image"
+                  />
+                  <span class="main__guide-content-item-text"
+                    >離職率を改善したい</span
+                  >
+                </div>
+              </div>
+              <div class="main__guide-content-second-row">
+                <div
+                  onclick="window.location.href='#'"
+                  class="main__guide-content-item-1"
+                >
+                  <img
+                    class="main__guide-content-item-img"
+                    src="./assets/images/icon (3).svg"
+                    alt="Guide image"
+                  />
+                  <span class="main__guide-content-item-text"
+                    >成績優秀層を分析したい</span
+                  >
+                </div>
+                <div
+                  onclick="window.location.href='#'"
+                  class="main__guide-content-item-2"
+                >
+                  <img
+                    class="main__guide-content-item-img"
+                    src="./assets/images/icon (4).svg"
+                    alt="Guide image"
+                  />
+                  <span class="main__guide-content-item-text"
+                    >自社の特徴を理解したい</span
+                  >
+                </div>
+                <div
+                  onclick="window.location.href='#'"
+                  class="main__guide-content-item-3"
+                >
+                  <img
+                    class="main__guide-content-item-img"
+                    src="./assets/images/icon (5).svg"
+                    alt="Guide image"
+                  />
+                  <span class="main__guide-content-item-text"
+                    >社員のコミュニケーションを 改善したい</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="main__result-content">
+              <div class="main__result-content-header-title">
+                <img
+                  src="./assets/images/アートワーク 8.svg"
+                  alt="Result image"
+                />
+                <div class="main__result-content-header-title-text">
+                  <span class="main__result-content-header-title-text-title">
+                    検査結果画面の解説
+                  </span>
+                  <span
+                    class="main__result-content-header-title-text-description"
+                  >
+                    SALES SCOREのアウトプット項目について紹介します。
+                  </span>
+                </div>
+              </div>
+              <div class="main__result-content-body">
+                <div class="main__result-content-body-item">
+                  <span class="main__result-content-body-item-title"
+                    >適性検査のアウトプット</span
+                  >
+                  <div class="main__result-content-body-item-container">
+                    <div
+                      onclick="window.location.href='#'"
+                      class="main__result-content-body-item-container-item"
+                    >
+                      <img
+                        class="main__result-content-body-item-container-item-img"
+                        src="./assets/images/Group 47503.svg"
+                        alt="Result image"
+                      />
+                      <span
+                        class="main__result-content-body-item-container-item-text"
+                        >データサマリー</span
+                      >
+                    </div>
+                    <div
+                      onclick="window.location.href='#'"
+                      class="main__result-content-body-item-container-item"
+                    >
+                      <img
+                        class="main__result-content-body-item-container-item-img"
+                        src="./assets/images/Group 47547.svg"
+                        alt="Result image"
+                      />
+                      <span
+                        class="main__result-content-body-item-container-item-text"
+                        >データ詳細</span
+                      >
+                    </div>
+                    <div
+                      onclick="window.location.href='#'"
+                      class="main__result-content-body-item-container-item"
+                    >
+                      <img
+                        class="main__result-content-body-item-container-item-img"
+                        src="./assets/images/Group 47550.svg"
+                        alt="Result image"
+                      />
+                      <span
+                        class="main__result-content-body-item-container-item-text"
+                        >データ比較</span
+                      >
+                    </div>
+                    <div
+                      class="main__result-content-body-item-container-item"
+                      id="hide"
+                    ></div>
+                  </div>
+                </div>
+                <!-- item 2 -->
+                <div class="main__result-content-body-item">
+                  <span class="main__result-content-body-item-title"
+                    >企業傾向分析</span
+                  >
+                  <div class="main__result-content-body-item-container">
+                    <div
+                      onclick="window.location.href='#'"
+                      class="main__result-content-body-item-container-item"
+                    >
+                      <img
+                        class="main__result-content-body-item-container-item-img"
+                        src="./assets/images/Group 47553.svg"
+                        alt="Result image"
+                      />
+                      <span
+                        class="main__result-content-body-item-container-item-text"
+                        >全体比較</span
+                      >
+                    </div>
+                    <div
+                      onclick="window.location.href='#'"
+                      class="main__result-content-body-item-container-item"
+                    >
+                      <img
+                        class="main__result-content-body-item-container-item-img"
+                        src="./assets/images/Group 47556.svg"
+                        alt="Result image"
+                      />
+                      <span
+                        class="main__result-content-body-item-container-item-text"
+                        >営業タイプ傾向</span
+                      >
+                    </div>
+                    <div
+                      onclick="window.location.href='#'"
+                      class="main__result-content-body-item-container-item"
+                    >
+                      <img
+                        class="main__result-content-body-item-container-item-img"
+                        src="./assets/images/Group 47557.svg"
+                        alt="Result image"
+                      />
+                      <span
+                        class="main__result-content-body-item-container-item-text"
+                        >High-Low分析</span
+                      >
+                    </div>
+                    <div
+                      onclick="window.location.href='#'"
+                      class="main__result-content-body-item-container-item"
+                    >
+                      <img
+                        class="main__result-content-body-item-container-item-img"
+                        src="./assets/images/Group 47558.svg"
+                        alt="Result image"
+                      />
+                      <span
+                        class="main__result-content-body-item-container-item-text"
+                        >構成比比較</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- item 3 -->
+                <div class="main__result-content-body-item">
+                  <span class="main__result-content-body-item-title"
+                    >検査結果詳細</span
+                  >
+                  <div class="main__result-content-body-item-container">
+                    <div
+                      onclick="window.location.href='#'"
+                      class="main__result-content-body-item-container-item"
+                    >
+                      <img
+                        class="main__result-content-body-item-container-item-img"
+                        src="./assets/images/Group 47565.svg"
+                        alt="Result image"
+                      />
+                      <span
+                        class="main__result-content-body-item-container-item-text"
+                        >表示される予測値</span
+                      >
+                    </div>
+                    <div
+                      onclick="window.location.href='#'"
+                      class="main__result-content-body-item-container-item"
+                    >
+                      <img
+                        class="main__result-content-body-item-container-item-img"
+                        src="./assets/images/Group 47563.svg"
+                        alt="Result image"
+                      />
+                      <span
+                        class="main__result-content-body-item-container-item-text"
+                        >表示される営業タイプ</span
+                      >
+                    </div>
+                    <div
+                      class="main__result-content-body-item-container-item"
+                      id="hide"
+                    ></div>
+                    <div
+                      class="main__result-content-body-item-container-item"
+                      id="hide"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main__features-content">
+              <div class="main__result-content-header-title">
+                <img
+                  src="./assets/images/アートワーク 39.png"
+                  alt="Result image"
+                />
+                <div class="main__result-content-header-title-text">
+                  <span class="main__result-content-header-title-text-title">
+                    主な機能
+                  </span>
+                  <span
+                    class="main__result-content-header-title-text-description"
+                  >
+                    SALES
+                    SCOREの利用方法及び、ツールに表示される項目について紹介します。
+                  </span>
+                </div>
+              </div>
+              <div class="main__features-content-body">
+                <div class="main__features-content-body-col-1">
+                  <!-- item 1 -->
+                  <div class="main__features-content-body-item">
+                    <span
+                      onclick="window.location.href='#'"
+                      class="main__features-content-body-item-title"
+                      >管理者</span
+                    >
+                    <ul class="main__features-content-body-item-list">
+                      <li class="main__features-content-body-item-list-item">
+                        管理者の登録・編集
+                      </li>
+                      <li class="main__features-content-body-item-list-item">
+                        表示される管理者情報
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- item 2 -->
+                  <div class="main__features-content-body-item">
+                    <span
+                      onclick="window.location.href='#'"
+                      class="main__features-content-body-item-title"
+                      >従業員</span
+                    >
+                    <ul class="main__features-content-body-item-list">
+                      <li class="main__features-content-body-item-list-item">
+                        従業員の登録・編集
+                      </li>
+                      <li class="main__features-content-body-item-list-item">
+                        表示される従業員情報
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- item 3 -->
+                  <div class="main__features-content-body-item">
+                    <span
+                      onclick="window.location.href='#'"
+                      class="main__features-content-body-item-title"
+                      >応募者</span
+                    >
+                    <ul class="main__features-content-body-item-list">
+                      <li class="main__features-content-body-item-list-item">
+                        応募者の登録・編集
+                      </li>
+                      <li class="main__features-content-body-item-list-item">
+                        表示される応募者情報
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- item 4 -->
+                  <div class="main__features-content-body-item">
+                    <span
+                      onclick="window.location.href='#'"
+                      class="main__features-content-body-item-title"
+                      >実績データの登録</span
+                    >
+                    <ul class="main__features-content-body-item-list">
+                      <li class="main__features-content-body-item-list-item">
+                        実績の登録・編集
+                      </li>
+                      <li class="main__features-content-body-item-list-item">
+                        分析対象範囲の指定
+                      </li>
+                      <li class="main__features-content-body-item-list-item">
+                        成績区分の指定
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="main__features-content-body-col-2">
+                  <!-- item 5 -->
+                  <div class="main__features-content-body-item">
+                    <span
+                      onclick="window.location.href='#'"
+                      class="main__features-content-body-item-title"
+                      >適性検査</span
+                    >
+
+                    <ul class="main__features-content-body-item-list">
+                      <li class="main__features-content-body-item-list-item">
+                        適性検査推奨環境
+                      </li>
+                      <li class="main__features-content-body-item-list-item">
+                        受検メールの送信
+                      </li>
+                      <li class="main__features-content-body-item-list-item">
+                        ＵＲＬの発行
+                      </li>
+                      <li class="main__features-content-body-item-list-item">
+                        受検者のステータス
+                      </li>
+                      <li class="main__features-content-body-item-list-item">
+                        検査実施項目
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- item 6 -->
+                  <div class="main__features-content-body-item">
+                    <span
+                      onclick="window.location.href='#'"
+                      class="main__features-content-body-item-title"
+                      >ダッシュボード機能</span
+                    >
+                    <ul class="main__features-content-body-item-list">
+                      <li class="main__features-content-body-item-list-item">
+                        実績データ分析機能
+                      </li>
+                      <li class="main__features-content-body-item-list-item">
+                        運用サポート機能
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- item 7 -->
+                  <div class="main__features-content-body-item">
+                    <span
+                      onclick="window.location.href='#'"
+                      class="main__features-content-body-item-title"
+                      >契約について</span
+                    >
+                    <ul class="main__features-content-body-item-list">
+                      <li class="main__features-content-body-item-list-item">
+                        契約情報の確認
+                      </li>
+                      <li class="main__features-content-body-item-list-item">
+                        解約の方法
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <footer class="footer">
+      <p class="footer__text">
+        Copyright © 2022 SALES SCORE All Right Reserved.
+      </p>
+    </footer>
+  </body>
+</html>
